@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopt A Pet</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Jika Anda ingin menambahkan CSS -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Adopt A Pet</h1>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#pets">Hewan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h2>Temukan Teman Sejati Anda</h2>
+        <p>
+          Bergabunglah dengan kami untuk mengadopsi hewan peliharaan yang
+          membutuhkan rumah.
+        </p>
+        <a href="#pets" class="btn">Lihat Hewan</a>
+      </section>
+
+      <section id="pets">
+        <h2>Hewan yang Tersedia untuk Diadopsi</h2>
+        <div class="pet-gallery">
+          <div class="pet-card">
+            <img src="https://via.placeholder.com/150" alt="Kucing 1" />
+            <h3>Kucing Manis</h3>
+            <p>Usia: 2 tahun</p>
+            <p>Lokasi: Jakarta</p>
+            <a href="#" class="btn">Adopsi</a>
+          </div>
+          <div class="pet-card">
+            <img src="https://via.placeholder.com/150" alt="Anjing 1" />
+            <h3>Anjing Ceria</h3>
+            <p>Usia: 3 tahun</p>
+            <p>Lokasi: Bandung</p>
+            <a href="#" class="btn">Adopsi</a>
+          </div>
+          <div class="pet-card">
+            <img src="https://via.placeholder.com/150" alt="Kucing 2" />
+            <h3>Kucing Nakal</h3>
+            <p>Usia: 1 tahun</p>
+            <p>Lokasi: Surabaya</p>
+            <a href="#" class="btn">Adopsi</a>
+          </div>
+          <div class="pet-card">
+            <img src="https://via.placeholder.com/150" alt="Anjing 2" />
+            <h3>Anjing Penyayang</h3>
+            <p>Usia: 4 tahun</p>
+            <p>Lokasi: Yogyakarta</p>
+            <a href="#" class="btn">Adopsi</a>
+          </div>
+          <!-- Tambahkan lebih banyak hewan di sini -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, silakan hubungi kami melalui:</p>
+        <ul>
+          <li>Email: info@adoptapet.com</li>
+          <li>Telepon: +62 123 4567</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Adopt A Pet. Semua hak dilindungi.</p>
+    </footer>
+  </body>
+</html>
